@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+header{
+    margin: 30px 0px;
+}
+.rowHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.door{
+    display: flex;
+
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.door ul a{
+    color: #36536B;
+}
+.door button{
+    width: 123px;
+    height: 48px;
+    background-color: #BA4270;
+    border: none;
+    border-radius: 24px;
+    color: white;
+}
+.rowbig{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.hd{
+    font-size: 72px;
+    color: #36536B;
+    width: 546px;
+}
+.none{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.doe{
+    font-size: 48px;
+    color: #36536B;
+}
+.none p{
+    width: 445px;
+    color: #6C8294;
+    margin: 15px 0px;
+}
+.bigrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bigrow p{
+    color: #36536B;
+    margin-top: 25px;
+}
+.riw{
+    margin-top: 75px;
+    height: 100px;
+    background-color:#1B262F;
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+}
+.riw ul a{
+    color: #FBFCFE;
+}
+.tiwer{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.linee{
+    width: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    display: none;
+}
+.linee div{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}
+@media(max-width:1024px) {
+    .rowbig{
+        flex-direction: column-reverse;
+    }
+    .rowbig img {
+        width: 159px;
+    }
+    .rowbig .hd{
+        font-size: 48px;
+    }
+    .none{
+        flex-direction: column;
+    }
+    .none img {
+        width: 159px;
+    }
+    .none .doe {
+        font-size: 48px;
+    }
+    .bigrow img {
+        width: 100px;
+    }
+}
+@media(max-width:768px)  {
+    .door{
+        display: none;
+    }
+
+
+      .rowbig img {
+        width: 128px;
+    }
+    .linee{
+        display: flex;
+    }
+    .rowbig .hd{
+        font-size: 32px;
+        text-align: center;
+        width: 322px;
+    }
+    .none{
+        flex-direction: 32px;
+        text-align: center;
+        width:322px;
+    }
+    .none img {
+        width: 128px;
+    }
+    .none .doe {
+        font-size: 32px;
+    }
+    .bigrow img {
+        width: 52px;
+    }
+
+}
